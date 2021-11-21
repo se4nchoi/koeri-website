@@ -1,0 +1,106 @@
+/* CSS HEX */
+:root {
+--phthalo-green: #152614ff;
+--forest-green-traditional: #1e441eff;
+--pakistan-green: #2a7221ff;
+--slimy-green: #119822ff;
+--lime-green: #31cb00ff;
+--rhythm: #646881ff;
+}
+.logo__img {
+  width: 80px;
+}
+.logo__text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  width: 300px;
+
+  color: black;
+  font-family: "Noto Sans";
+  font-weight: bold;
+  text-decoration: none;
+  
+  margin: 0 0 0 32px;
+}
+
+.logo__text--top {
+  font-size: 24px;
+}
+.logo__text--bottom {
+  font-size: 36px;
+}
+.navbar .container-fluid {
+  height: 120px;
+  padding: 0 64px;
+}
+
+.topfixed {
+  position: fixed;
+  top: 0;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+  padding:0;
+  margin: 0;
+  height: 120px;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  padding: 0;
+  height: 100%;
+}
+.navbar__right {
+  display: flex;
+  list-style: none;
+}
+.navbar__right li {
+  display: inline-block;
+  height: 120px;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.carousel-textbox {
+  position:absolute;
+  right: 15%;
+  left: 15%;
+  margin-top: -400px;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+
+}
+.carousel-text {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+
+  
+}
+.carousel-item__image  {
+  display: block;
+  width: 100%;
+  height:calc(100vh - 120px);
+  object-fit: cover;
+}
+
+.koeri {
+  color: red;
+}
+
+
+
+@media (min-width: 768px) {
+}

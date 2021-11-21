@@ -1,0 +1,54 @@
+@media (min-width: 992px){
+    .navbar {
+        padding: 0;
+        height: 100px;
+    }
+    .logo__img {
+        width: 80px;
+    }
+    .logo__text--top {
+        font-size: 24px;
+    }
+    .logo__text--bottom {
+        font-size: 36px;
+    }
+    .navbar__right li {
+        margin-right: 24px;
+    }
+    .navbar__right li:last-child {
+        margin-right: 0;
+    }
+    .navbar__right li a {
+        border-radius: 8px;
+    }
+    .navbar-collapse {
+        margin-right: 30px;
+    }
+    .nav-link span {
+        margin: 0;
+        font-size: 20px;
+    }
+    .dropdown-menu {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 8px;
+        margin-left: 0px;
+        border: none;
+        border-radius: 8px;
+    }
+    .carousel__container {
+        margin-top: 100px;
+    }
+    .carousel-item {
+        height:calc(100vh - 100px);
+    }
+    
+    .carousel-textbox {
+        top: calc(45%);
+        left: calc(50% - 30%);
+        max-width: 70%;
+        padding: 16px;
+    }
+    .carousel-text {
+        font-size: 42px;
+    }
+}

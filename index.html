@@ -1,200 +1,415 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="ESG 경영을 위한 올바른 선택" />
-        <meta name="author" content="YehyunChoi" />
-        <title>KoERI 한국ESG연구원</title>
-        <!-- Favicon-->
-        <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/bootstrap5.css" rel="stylesheet" />
-        <link href="css/custom.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#!">
-                    <img class="logo__img" src="assets/img/koeri-logo.png">
-                    <span class="logo__text">
-                        <span class="logo__text--top">Korea ESG Research Institute</span>
-                        <span class="logo__text--bottom">한국ESG경영연구원(주)</span>
-                    </span>
-                </a>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="ESG 경영을 위한 올바른 선택" />
+    <meta name="author" content="YehyunChoi" />
+    <title>KoERI 한국ESG연구원</title>
+    <!-- Favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/bootstrap5.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    
+    <script src="https://kit.fontawesome.com/d224bdbaec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg mr-auto container-fluid">
+        <a class="navbar-brand" href="#">
+            <img class="logo__img" src="assets/img/koeri-logo.png">
+            <div class="logo__text">
+                <div class="logo__text--top">Korea ESG Research Institute</div>
+                <div class="logo__text--bottom">한국ESG경영연구원㈜</div>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bi bi-list"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav navbar__right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-us"><span>About Us</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#showcase" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span>Our Work</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#training"><span class="dropdown-item__text">기업맞춤 교육</span></a>
+                        <a class="dropdown-item" href="#plan"><span class="dropdown-item__text">중대성 평가 & 사례기획</span></a>
+                        <a class="dropdown-item" href="#report"><span class="dropdown-item__text">보고서 작성 & 검증</span></a>
+                        <a class="dropdown-item" href="#after-service"><span class="dropdown-item__text">사후관리 & 홍보</span></a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#staff"><span>Our People</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-us"><span>Contact Us</span></a>
+                </li>
                 
-                <ul class="navbar__right">
-                    <li>Who we Are</li>
-                    <li>Our Work</li>
-                    <li>Our People</li>
-                    <li>Contact Us</li>
-                </ul>
+            </ul>
+            
+        </div>
+    </nav>
+    <!-- hero carousel -->
+    <header class="carousel__container container-fluid p-0">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel"> 
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-item-1 active">
+                    <div class="carousel-textbox">
+                        <span class="carousel-text text"><span class="koeri">KoERI</span>는 중소기업의 미래가치경영(ESG)의 동반자로 함께 하겠습니다</span>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-2">
+                    <div class="carousel-textbox">
+                        <span class="carousel-text text">기업 맞춤형 특화교육</span>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-3">
+                    <div class="carousel-textbox">
+                        <span class="carousel-text text">ESG 중대성 평가 & 액션플랜 수립 및 실행</span>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-4">
+                    <div class="carousel-textbox">
+                        <span class="carousel-text text">지속가능경영 보고서 작성</span>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-5">
+                    <div class="carousel-textbox">
+                        <span class="carousel-text text">사후관리 & 홍보 및 마케팅</span>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- About Us -->
+    <section class="features-icons bg-light text-center" id="about-us">
+        <div class="container-fluid">
+            <h2 class="text-center mb-5">ABOUT US</h2>
+            <div class="row">
+                <div class="introduction mx-auto"> 
+                    <div class="about-us__logo">
+                        <img class="" src="assets/img/koeri-logo.png">
+                    </div>
+                    <div class="">Korea ESG Research Institute</div>
+                    <div class="mb-3">한국ESG경영연구원</div>
+                    <p class="intro-text">Environmental, Social, Governance를 화두로 하는 ESG경영은 기업활동에 ESG적 요소, 즉 친환경, 사회적 책임 경영, 지배구조 개선 등 비재무적 요소도 고려해야 지속 가능한 발전을 할 수 있다는 철학을 담고 있습니다</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon intro__icon d-flex"><i class="fa fa-brands fa-envira m-auto"></i></div>
+                        <h3>ENVIRONMENT</h3>
+                        <h4>환경</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon intro__icon d-flex"><i class="fa fa-solid fa-users m-auto"></i></div>
+                        <h3>SOCIAL</h3>
+                        <h4>사회</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                        <div class="features-icons-icon intro__icon d-flex"><i class="fa fa-solid fa-handshake m-auto"></i></div>
+                        <h3>GOVERNANCE</h3>
+                        <h4>지배구조</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- showcase -->
+    <section class="showcase" id="showcase">
+        <div class="container-fluid p-0">
+            <h2 class="text-center mt-5 mb-5">OUR WORK</h2>
+            <div class="row g-0" id="training">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img showcase-img-1"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>ESG 기업맞춤 교육</h2>
+                    <h3 class="lead my-4">CEO/임원</h3>
+                    <ul> 
+                        <li>ESG경영의 필요성과 중요성</li>
+                        <li>ESG 경영의 추진방향</li>
+                        <li>ESG 경영의 과제 및 해결방안</li>
+                    </ul>
+                    <p class="lead mb-0"></p>
+                    <h3 class="lead my-4">실무자</h3>
+                    <ul>
+                        <li>E: 글로벌산업의 생분해성 소재개발 트렌드</li>
+                        <li>S: 국내외 기업의 CSR활동 현황과 도입방안</li>
+                        <li>G: 비즈니스윤리, 직업윤리 및 투명성 확보 방안</li>
+                    </ul>
+                    <p class="lead mb-0"></p>
+                    <h3 class="lead my-4">직원</h3>
+                    <ul>
+                        <li>ESG경영의 중요성 인식</li>
+                        <li>ESG경영에서 전원 참여와 추진 전략의 이해</li>
+                        <li>ESG 실천을 위한 현장 실무활동(관리자 교육요약 포함</li>
+                    </ul>
+                    <p class="lead mb-0"></p>
+                </div>
+            </div>
+            <div class="row g-0" id="plan">
+                <div class="col-lg-6 text-white showcase-img showcase-img-2"></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <h2 >중대성 평가 & 사례기획</h2>
+                    <h3 class="lead my-4">ESG 중요 이슈 선정</h3>
+                    <ul>
+                        <li>기업의 중대성 평가를 통하여 도출된 조직의 중요 이슈를 해결하기 위한 액션 플랜을 수립하고 실행</li>
+                    </ul>
+                    <p class="lead mb-0"></p>
+                </div>
+            </div>
+            <div class="row g-0" id="report">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img showcase-img-3"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2 >보고서 작성 & 검증</h2>
+                    <h3 class="lead my-4">국제표준에 맞춘 지속가능경영보고서 작성 </h3>
+                    <ul>
+                        <li>기업의 ESG활동 관련 모든 정보를 압축적, 논리적으로 담은 지속가능경영보고서를 작성</li>
+                    </ul>
+                    <p class="lead mb-0"></p>
+                </div>
+            </div>
+            <div class="row g-0" id="after-service">
+                <div class="col-lg-6 text-white showcase-img showcase-img-4"></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <h2 class="mb-5" >사후관리 & 홍보</h2>
+                    <ul>
+                        <h2>대외 ESG 공시</h2>
+                        <li>기업내부 ESG성과 공유</li>
+                        <li>사회이슈 고려한 사회적 마케팅 실행</li>
+                        <h2>사후관리(내부실행점검)</h2>
+                        <li>내부점검 체크리스트 제공 및 시스템구축</li>
+                        <li>정기적인 ESG경영연구원의 점검</li>
+                        <li>ESG실행 동력유지를 위한 정기 코칭(분기1회)</li>
+                        <h2>ESG 경영 정착</h2>
+                        <li>ESG역량 강화를 통한 국내외 대응성 향상</li>
+                        <li>ESG대응역량으로 장기적 발전 가능성 증대</li>
+                        <li>기업의 이미지제고 및 장기적 수익 향상</li>
+                    </ul>
+                    <p class="lead mb-0"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- staffs-->
+    <section class="staff" id="staff">
+        <div class="container-fluid">
+            <h2 class="staff-title mb-5">OUR PEOPLE</h2>
+            <div class="row mb-5">
+                <div class="col-lg-4">
+                    <div class="staff-item mx-auto mb-5 mb-lg-0">
+                        <div class="staff-item__header">
+                            <img class="staff-img mb-3" src="assets/img/research-staff/research-staff-1.jpg" loading="lazy" alt="..." />
+                            <h4 class="name">김진한</h4>
+                            <h5 class="position">대표이사</h5>
+                        </div>
+                        <div class="staff-item__body">
+                            <ul class="resume mb-3">
+                                <div class="resume__icon"><i class="fa fa-solid fa-graduation-cap"></i></div>
+                                <li>경영 컨설팅학 박사</li>
+                                <li>ESG전문가 과정 수료</li>
+                                <div class="resume__icon"><i class="bi bi-briefcase-fill"></i></div>
+                                <li>㈜삼진 기술고문</li>
+                                <li>前삼성전자 전무</li>
+                                <li>前경북창조경제혁신센터 센터장</li>
+                                <li>Marquis Who’s Who 세계인명사전등록</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="staff-item mx-auto mb-5 mb-lg-0">
+                        <div class="staff-item__header">
+                            <img class="staff-img mb-3" src="assets/img/research-staff/research-staff-2.jpg" loading="lazy" alt="..." />
+                            <h4 class="name">성병호</h4>
+                            <h5 class="position">이사</h5>
+                        </div>
+                        <div class="staff-item__body">
+                            <ul class="resume mb-3">
+                                <div class="resume__icon"><i class="fa fa-solid fa-graduation-cap"></i></div>
+                                <li>경영 컨설팅학 박사</li>
+                                <li>MBA</li>
+                                <li>기술 경영사/ 기술평가사</li>
+                                <li>전자기사 1급</li>
+                                <li>ESG 전문가 과정 수료 </li>
+                                <div class="resume__icon"><i class="bi bi-briefcase-fill"></i></div>
+                                <li>前전경련 지속가능경영협의</li>
+                                <li>前상생협력협의</li>
+                                <li>前대구테크노파기획단장</li>
+                                <li>前SK하이스텍㈜ 이사</li>
+                                <li>前SK하이닉스㈜ 싱가폴/인장</li>
+                                <li>前SK하이닉스㈜ 사무국장</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="staff-item mx-auto mb-5 mb-lg-0">
+                        <div class="staff-item__header">
+                            <img class="staff-img mb-3" src="assets/img/research-staff/research-staff-3.jpg" loading="lazy" alt="..." />
+                            <h4 class="name">이준형</h4>
+                            <h5 class="position">이사</h5>
+                        </div>
+                        <div class="staff-item__body">
+                            <ul class="resume mb-3">
+                                <div class="resume__icon"><i class="fa fa-solid fa-graduation-cap"></i></div>
+                                <li>경영 컨설팅학 박사수료</li>
+                                <li>MBA (전략 및 조직관리)</li>
+                                <li>기업법무전문가 과정 수료</li>
+                                <li>ESG 전문가 과정 수료 </li>
+                                <div class="resume__icon"><i class="bi bi-briefcase-fill"></i></div>
+                                <li>서울보증보험㈜ 부장</li>
+                                <li>前한국산업인력공단 평가위원</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="staff-item mx-auto mb-5 mb-lg-0">
+                        <div class="staff-item__header">
+                            <img class="staff-img mb-3" src="assets/img/research-staff/research-staff-4.png" loading="lazy" alt="..." />
+                            <h4 class="name">이태훈</h4>
+                            <h5 class="position">이사</h5>
+                        </div>
+                        <div class="staff-item__body">
+                            <ul class="resume mb-3">
+                                <div class="resume__icon"><i class="fa fa-solid fa-graduation-cap"></i></div>
+                                <li>경영 컨설팅학 박사</li>
+                                <li>ESG전문가 과정 수료</li>
+                                <div class="resume__icon"><i class="bi bi-briefcase-fill"></i></div>
+                                <li>기술경영사</li>
+                                <li>ISO심사원 (9001, 14001, 45001, 27001)</li>
+                                <li>7Habit FT</li>
+                                <li>2급전문상담사</li>
+                                <li>MBTI/STRONG 일반강사</li>
+                                <li>한국패션산업연구원 ESG 자문위원</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="staff-item mx-auto mb-5 mb-lg-0">
+                        <div class="staff-item__header">
+                            <img class="staff-img mb-3" src="assets/img/research-staff/research-staff-5.png" loading="lazy" alt="..." />
+                            <h4 class="name">김옥경</h4>
+                            <h5 class="position">이사</h5>
+                        </div>
+                        <div class="staff-item__body">
+                            <ul class="resume mb-3">
+                                <div class="resume__icon"><i class="fa fa-solid fa-graduation-cap"></i></div>
+                                <li>경영컨설팅학 석사</li>
+                                <li>ESG전문가 과정 수료</li>
+                                <div class="resume__icon"><i class="bi bi-briefcase-fill"></i></div>
+                                <li>기술경영사</li>
+                                <li>㈜한국중소기업경영평가원 대표이사</li>
+                                <li>㈜바이오엠씨 이사</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="staff-item mx-auto mb-5 mb-lg-0">
+                        <div class="staff-item__header">
+                            <img class="staff-img mb-3" src="assets/img/research-staff/research-staff-6.png" loading="lazy" alt="..." />
+                            <h4 class="name">김수경</h4>
+                            <h5 class="position">이사</h5>
+                        </div>
+                        <div class="staff-item__body">
+                            <ul class="resume mb-3">
+                                <div class="resume__icon"><i class="fa fa-solid fa-graduation-cap"></i></div>
+                                <li>패션학 박사</li>
+                                <li>계명문화대학교 겸임교수</li>
+                                <li>대한민국 CSR논문경진대회 - 우수논문수상</li>
+                                <li>산업유공포상 지식경제부장관표창</li>
+                                <li>ESG전문가 과정 수료</li>
+                                <div class="resume__icon"><i class="bi bi-briefcase-fill"></i></div>
+                                <li>한국패션산업연구원 ESG자문위원</li>
+                                <li>한국산업기술평가관리원 최고평가위원</li>
+                                <li>중소기업기술정보진흥원 평가위원</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact us -->
+    <section class="contact-us" id="contact-us">
+        <div class="container-fluid">
+            <h2 class="text-center mb-5">CONTACT US</h2>
+            <div class="row mb-5">
+                <div class="text-center col-lg-12">
+                    TBD
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 h-100 text-center text-center my-auto">
+                    <ul class="footer-menu list-inline mb-2">
+                        <li class="list-inline-item"><a href="#!">About</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#!">Contact</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+                    </ul>
+                    <p class="copyright small mb-4">&copy; Korea ESG Research Institute 2021. All Rights Reserved.</p>
                     
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="container-fluid p-0">
-            <div id="heroCarousel" class="carousel slide" data-bs-ride=""> 
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src='assets/img/carousel-image-1.jpg' class="carousel-item__image" alt="placeholder">
-                        <div class="carousel-textbox">
-                            <span class="carousel-text"><span class="koeri">KoERI</span>는 중소기업의 미래가치경영(ESG)의 동반자로 함께 하겠습니다</span>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src='assets/img/carousel-image-2.jpg' class="carousel-item__image" alt="placeholder">
-                    </div>
-                    <div class="carousel-item">
-                        <img src='assets/img/carousel-image-3.jpg' class="carousel-item__image" alt="placeholder">
-                    </div>
-                    <div class="carousel-item">
-                        <img src='assets/img/carousel-image-4.png' class="carousel-item__image" alt="placeholder">
-                    </div>
-                    <div class="carousel-item">
-                        <img src='assets/img/carousel-image-5.png' class="carousel-item__image" alt="placeholder">
-                    </div>
-                </div>
-            </div>
-        </header>
-        
-        <!-- Icons Grid-->
-        <section class="features-icons bg-light text-center">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                            <h3>Fully Responsive</h3>
-                            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
-                            <h3>Bootstrap 5 Ready</h3>
-                            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
-                            <h3>Easy to Use</h3>
-                            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Image Showcases-->
-        <section class="showcase">
-            <div class="container-fluid p-0">
-                <div class="row g-0">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-1.jpg')"></div>
-                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>Fully Responsive Design</h2>
-                        <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-                    </div>
-                </div>
-                <div class="row g-0">
-                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-2.jpg')"></div>
-                    <div class="col-lg-6 my-auto showcase-text">
-                        <h2>Updated For Bootstrap 5</h2>
-                        <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!</p>
-                    </div>
-                </div>
-                <div class="row g-0">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-3.jpg')"></div>
-                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>Easy to Use & Customize</h2>
-                        <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Testimonials-->
-        <section class="testimonials text-center bg-light">
-            <div class="container-fluid">
-                <h2 class="mb-5">What people are saying...</h2>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
-                            <h5>Margaret E.</h5>
-                            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-2.jpg" alt="..." />
-                            <h5>Fred S.</h5>
-                            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-3.jpg" alt="..." />
-                            <h5>Sarah W.</h5>
-                            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Call to Action-->
-        <section class="call-to-action text-white text-center" id="signup">
-            <div class="container position-relative">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6">
-                        <h2 class="mb-4">당장 기초 컨설팅 받아보세요!</h2>                        
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-light">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
-                        <ul class="list-inline mb-2">
-                            <li class="list-inline-item"><a href="#!">About</a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Contact</a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
-                        </ul>
-                        <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2021. All Rights Reserved.</p>
-                    </div>
-                    <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                    <div class="sns h-100 text-center my-auto">
                         <ul class="list-inline mb-0">
                             <li class="list-inline-item me-4">
                                 <a href="#!"><i class="bi-facebook fs-3"></i></a>
@@ -209,10 +424,11 @@
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
 </html>
